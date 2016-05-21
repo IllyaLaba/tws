@@ -1,0 +1,61 @@
+
+
+.development, .support, .advertising, .footer {
+   padding-top:50px; 
+}
+
+.tws-tel {
+    font-size: 18px;
+}
+
+.development {
+    background:#f1f1f1;
+    }
+
+.support {
+     background:#f1f1f1;
+      
+}
+
+.advertising {
+     background:#f1f1f1;
+}
+
+
+.footer {
+     background:#f1f1f1;
+}
+
+.content {
+    margin-top: 80px;
+}
+.content-text img{
+    float:left;
+    padding: 10px;
+    width:200px;
+    
+}
+.content-text {
+    font-size: 20px;
+    font-weight: 300;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Verdana',sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.navbar {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
+
+.left-menu {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
