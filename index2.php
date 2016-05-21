@@ -5,6 +5,7 @@
         <title>Внутрення страничка</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link type="text/css" rel="stylesheet" href="/css/bootstrap.css" /> 
         <link type="text/css" rel="stylesheet" href="/css/style.css" />    	
@@ -19,19 +20,20 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                       <span class="sr-only">Студия ТВС</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    --> 
-                    <a class="navbar-brand" href="#">Студия ТВС</a>
+                    
+                    
+                    <a class="navbar-brand" href="#"><img alt="Создание и продвижение сайтов" src="/images/logo.png"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Разработка</a></li>
-                        <li><a href="#about">Техническая поддержка</a></li>
+                        <li><a href="#about">Поддержка</a></li>
                         <li><a href="#contact">Продвижение и реклама</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">О нас <span class="caret"></span></a>
@@ -48,7 +50,7 @@
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="tws-tel"><a href="tel:+79647000507">+7(964) 7000 507</a></li>
+                        <li class="tws-tel hidden-xs hidden-sm"><a href="tel:+79647000507">+7(964) 7000 507</a></li>
                         <li class="active"><a href="#">Контакты<span class="sr-only">(current)</span></a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
@@ -87,7 +89,7 @@
                         </ol>
                         <div class="content-text">
                             <h1>Простой сайт</h1>
-                            <img src="/images/development/site-vizitka.png">
+                            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 text-center"><img class="img-responsive" src="/images/development/site-vizitka.png"></div>
                             <p>Простой сайт выполнит роль визитной карточки Вашей фирмы в интернете. Он содержит лишь основную информацию: направление деятельности компании, предоставляемые товары и услуги (без каталога продукции), контакты. Такие данные обновляются 2-3 раза в год, поэтому такой сайт не требует постоянного обслуживания.</p>
                             <h2>Вам подойдёт простой сайт (сайт-визитка), если:</h2>
                             <ul>
