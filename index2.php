@@ -8,9 +8,9 @@
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link type="text/css" rel="stylesheet" href="/css/bootstrap.css" /> 
         <link type="text/css" rel="stylesheet" href="/css/style.css" />    	
-<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,500,500italic,300,300italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,500,500italic,300,300italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     </head>
 
     <body>
@@ -107,52 +107,67 @@
                                 <li>К своим контактным данным Вы сможете добавить адрес сайта (на визитках, буклетах, в объявлениях, документах)</li>
                                 <li>Короткие сроки создания сайта;</li>
                             </ul>
-                       
-                        <h3>Стандартные разделы, которые могут входить в сайт-визитку:</h3>
-                        <ul>
 
-                            <li>Раздел «о компании»;</li>
-                            <li>Фотогалерея;</li>
-                            <li>Новости;</li>
-                            <li>Раздел FAQ (ответы на вопросы пользователей)</li>
-                            <li>Поиск по сайту;</li>
-                            <li>Прайс-лист в формате Microsoft Excel, который Вы сможете загружать самостоятельно;</li>
-                            <li>Контактные данные (адреса, телефоны, схемы проезда) и другие простые модули.</li>
-                        </ul>
-                        <p>Что касается раскрутки и продвижения сайта-визитки – тут необходимо учесть, что это возможно только в неконкурентных сферах и в отдельном регионе. Для продвижения сайта в конкурентной тематике практически сразу потребуется расширение и усложнение структуры сайта, увеличение объёма информации на нём. В таком случае сайт перестанет быть простым.</p>
-                        <p>Если Вам необходим простой сайт или у Вас остались вопросы относительно процесса его создания, выбора подходящих доменного имени и хостинга, раскрутки и продвижения – мы будем рады проконсультировать Вас более подробно по телефонам: +3(063) 687-10-98, +7(964) 700-05-07.</p>
+                            <h3>Стандартные разделы, которые могут входить в сайт-визитку:</h3>
+                            <ul>
 
+                                <li>Раздел «о компании»;</li>
+                                <li>Фотогалерея;</li>
+                                <li>Новости;</li>
+                                <li>Раздел FAQ (ответы на вопросы пользователей)</li>
+                                <li>Поиск по сайту;</li>
+                                <li>Прайс-лист в формате Microsoft Excel, который Вы сможете загружать самостоятельно;</li>
+                                <li>Контактные данные (адреса, телефоны, схемы проезда) и другие простые модули.</li>
+                            </ul>
+                            <p>Что касается раскрутки и продвижения сайта-визитки – тут необходимо учесть, что это возможно только в неконкурентных сферах и в отдельном регионе. Для продвижения сайта в конкурентной тематике практически сразу потребуется расширение и усложнение структуры сайта, увеличение объёма информации на нём. В таком случае сайт перестанет быть простым.</p>
+                            <p>Если Вам необходим простой сайт или у Вас остались вопросы относительно процесса его создания, выбора подходящих доменного имени и хостинга, раскрутки и продвижения – мы будем рады проконсультировать Вас более подробно по телефонам: +3(063) 687-10-98, +7(964) 700-05-07.</p>
+
+
+                        </div>
 
                     </div>
-
-                </div>
+                </div> 
             </div> 
-        </div> 
+
+            <div class="order-form-footer">
+                <div class="container">
+                    <div class="hor-form-wr text-center">
+                        <h2>Начать работу просто! Запишитесь на бесплатный аудит сайта!</h2>
+                        <form class="order-form hor-form" name="order-form" action="form/form.php" method="post">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-offset-1 col-sm-offset-3 col-md-offset-0 col-xs-10 col-sm-6">
+                                    <input type="text" name="name" placeholder="Ваше имя" class="form-control">
+                                </div>
+                                <div class="col-md-3 col-xs-offset-1 col-sm-offset-3 col-md-offset-0 col-xs-10 col-sm-6 ">
+                                    <input type="text" name="email" class="form-control" placeholder="Ваш e-mail">
+                                </div>
+                                <div class="col-md-3 col-xs-offset-1 col-sm-offset-3 col-md-offset-0 col-xs-10 col-sm-6">
+                                    <input type="tel" name="phone" class="form-control phone-mask phone" placeholder="Ваш телефон">
+                                </div>
+                                <div class="col-md-3 col-xs-offset-1 col-sm-offset-3 col-md-offset-0 col-xs-10 col-sm-6">
+                                    <button type="submit" class="order-btn btn btn-block">Оставить заявку</button>
+                                </div>
+                            </div>
 
 
-        <div class="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2>Heading</h2>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                        <p><a role="button" href="#" class="btn btn-primary">View details »</a></p>
-                    </div>                
-
-                    <div class="col-md-4">
-                        <h2>Heading</h2>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                        <p><a role="button" href="#" class="btn btn-primary">View details »</a></p>
+                        </form>
                     </div>
-                    <div class="col-md-4">
-                        <h2>Heading</h2>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                        <p><a role="button" href="#" class="btn btn-primary">View details »</a></p>
-                    </div>
-
                 </div>
-            </div> 
-        </div> 
+            </div>
+
+            <div class="client-logo">
+                <div class="container">
+                     <h2>Сегодня с нами работают!</h2>
+<img src="/images/icon-referal/ukraine.gif">
+<img src="/images/icon-referal/beget.jpg">
+<img src="/images/icon-referal/go-get-links.jpg">
+<img src="/images/icon-referal/seopult.jpg">
+<img src="/images/icon-referal/webasyst.jpg"><img src="/images/icon-referal/Shop-Script6.jpg"><img src="/images/icon-referal/reg-ru.jpg"></a></li>
+				
+							
+                </div>
+            </div>
+        </div>
 
 
 
